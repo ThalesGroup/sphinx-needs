@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756829137637,
-  "repoUrl": "https://github.com/useblocks/sphinx-needs",
+  "lastUpdate": 1756888854008,
+  "repoUrl": "https://github.com/ThalesGroup/sphinx-needs",
   "entries": {
     "Benchmark": [
       {
@@ -14002,6 +14002,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "Official Sphinx-Needs documentation (without services)",
             "value": 63.983829394,
+            "unit": "s",
+            "extra": "Commit: 7b1972185d75502d3089efdb9245f4ff2876480b\nBranch: master\nTime: 2025-09-02T18:03:39+02:00"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "duodurandy19@gmail.com",
+            "name": "Randy Duodu",
+            "username": "iSOLveIT"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7b1972185d75502d3089efdb9245f4ff2876480b",
+          "message": "Always generate schema violations.json report file (#1511)",
+          "timestamp": "2025-09-02T18:03:39+02:00",
+          "tree_id": "9f757bd3d149f138df4423e22fadc98099beffc2",
+          "url": "https://github.com/ThalesGroup/sphinx-needs/commit/7b1972185d75502d3089efdb9245f4ff2876480b"
+        },
+        "date": 1756888834581,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Small, basic Sphinx-Needs project",
+            "value": 0.18816000400002508,
+            "unit": "s",
+            "extra": "Commit: 7b1972185d75502d3089efdb9245f4ff2876480b\nBranch: master\nTime: 2025-09-02T18:03:39+02:00"
+          },
+          {
+            "name": "Official Sphinx-Needs documentation (without services)",
+            "value": 68.83634466199999,
             "unit": "s",
             "extra": "Commit: 7b1972185d75502d3089efdb9245f4ff2876480b\nBranch: master\nTime: 2025-09-02T18:03:39+02:00"
           }
